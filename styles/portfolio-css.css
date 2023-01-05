@@ -1,15 +1,18 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+
 }
-header{
+
+header {
     background: #FFF8F3;
-    background-image: url('/images/header_bg.png'),url('/images/developer.png');
-    background-position: bottom right,left;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-position: bottom right, left;
     background-repeat: no-repeat;
-    padding-top:20px;
-    
+    padding-top: 10px;
+
 }
+
 /* header & navigation style */
 
 .nav-tittle {
@@ -55,7 +58,8 @@ nav ul li {
     font-size: 20px;
     line-height: 28px;
 }
-.intro{
+
+.intro {
     margin: 0px 200px;
     display: flex;
 }
@@ -83,12 +87,94 @@ nav ul li {
     width: 165px;
     height: 64px;
     border-radius: 5px;
-    color:#FD6E0A ;
+    color: #FD6E0A;
     font-weight: bolder;
     font-size: 20px;
 }
-.intro-tittle{
+
+.intro-tittle {
     margin-top: 150px;
 }
 
 /* main styles */
+
+.about-me {
+    margin: 100px 230px;
+    background-color: #FFF8F3;
+}
+
+.about-main {
+    padding: 130px 155px;
+    border-radius: 10px;
+}
+
+.about-me h3 {
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-me p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-type {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+}
+
+.whatdo {
+    margin: 100px 230px;
+}
+
+.whatdo h3 {
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.whatdo p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.whatdo-container {
+    display: flex;
+}
+
+.whatdo-container h3 {
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.whatdo-container p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatdo-container img {
+    width: 44px;
+    height: 44px;
+}
+
+.whatdo-container div {
+    padding: 30px 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.whatdo-main{
+    padding: 130px 155px;
+}
