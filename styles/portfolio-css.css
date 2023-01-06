@@ -175,6 +175,105 @@ nav ul li {
     border-radius: 5px;
     margin-right: 24px;
 }
-.whatdo-main{
+
+.whatdo-main {
     padding: 130px 155px;
+}
+
+.resume {
+    margin: 130px 230px;
+}
+
+.resume-tittle {
+    font-size: 35px;
+    font-weight: 700px;
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.resume-cointainer {
+    display: flex;
+}
+
+.resume-cointainer h3 {
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+}
+
+.resume-cointainer h4 {
+    font-size: 25pxpx;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+
+.resume-cointainer h5 {
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-cointainer p {
+    color: #757575;
+}
+
+.my-education {
+    padding-right: 24px;
+}
+
+.resume button {
+    margin: 20px 750px 20px 650px;
+}
+
+.contact {
+    background: #FFF8F3;
+}
+
+.contact-container {
+    margin: 0px 230px;
+    padding: 130px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container h2 {
+    font-size: 35px;
+    font-weight: 700px;
+    padding-bottom: 20px;
+}
+
+.contact-container p {
+    color: #474747;
+    padding-bottom: 30px;
+}
+
+.contact-container img {
+    padding-right: 15px;
+}
+
+.connect {
+    width: 570px;
+}
+
+.message {
+    width: 570px;
+}
+
+.message input {
+    width: 461px;
+    height: 64px;
+    margin: 26px 0px;
+    border-radius: 5px ;
+    border: none;
+}
+
+#noman{
+    width: 461px;
+    height: 180px;
+    border: none;
+    border-radius: 5px;
+}
+.message button {
+    margin-top: 20px;
 }
