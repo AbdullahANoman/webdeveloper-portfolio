@@ -202,7 +202,7 @@ nav ul li {
 }
 
 .resume-cointainer h4 {
-    font-size: 25pxpx;
+    font-size: 25px;
     font-weight: 700px;
     margin-bottom: 10px;
 }
@@ -216,6 +216,7 @@ nav ul li {
 
 .resume-cointainer p {
     color: #757575;
+    margin-bottom: 20px;
 }
 
 .my-education {
@@ -276,4 +277,13 @@ nav ul li {
 }
 .message button {
     margin-top: 20px;
+}
+footer{
+    background: #FFF8F3;
+    color:#FD6E0A;
+    height: 40px;
+    text-align: center;
+}
+footer p{
+    padding-top: 15px;
 }
